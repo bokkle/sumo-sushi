@@ -1,15 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
 
-/* other css file imports */
-@import url("sections/header.css");
-@import url("sections/hero.css");
-@import url("sections/about.css");
-@import url("sections/popular.css");
-@import url("sections/trending.css");
-@import url("sections/subscribe.css");
-@import url("sections/footer.css");
-
 /* CSS variables for reusablity across all files (including above imported) */
 :root {
   --playfair-display: "Playfair Display", serif;
@@ -108,6 +99,7 @@ a {
   padding-left: 30px;
   color: #fff;
   z-index: 100;
+  font-size: 22px;
 }
 
 /* HERO  */
@@ -266,7 +258,7 @@ a {
 .hero-content__review p {
   font-size: 12px;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 22px;
   font-family: var(--plus-jakarta-sans);
   color: var(--secondary-color);
   opacity: 0.8;
@@ -545,6 +537,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .trending__discover p {
@@ -555,7 +548,7 @@ a {
   font-family: var(--plus-jakarta-sans);
 }
 
-.trending-sushi,
+.trending-sushi
 .trending-drinks {
   width: 100%;
   min-height: 640px;
@@ -613,7 +606,7 @@ a {
   background-image: url(./assets/japanese_sushi.png);
 }
 
-.trending-drink .trending__image {
+.trending-drinks .trending__image {
   background-image: url(./assets/japanese_drinks.png);
 }
 
@@ -884,6 +877,14 @@ a {
     display: block;
     top: 47%;
   }
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer ul {
+    gap: 14px;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -905,6 +906,14 @@ a {
 
   .about-us__content {
     padding: 32px;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer ul {
+    gap: 14px;
   }
 }
 /* END: about us media queries */
