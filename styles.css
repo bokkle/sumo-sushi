@@ -69,7 +69,7 @@ a {
 .header__menu-mobile {
   display: none;
   gap: 20px;
-
+  color: #fff;
   position: relative;
 }
 
@@ -887,7 +887,7 @@ a {
   }
   .trending-drinks {
     flex-direction: column-reverse;
-}
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -918,9 +918,9 @@ a {
   .footer ul {
     gap: 14px;
   }
-.trending-drinks {
+  .trending-drinks {
     flex-direction: column-reverse;
-}
+  }
 }
 /* END: about us media queries */
 
