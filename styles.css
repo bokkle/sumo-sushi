@@ -99,7 +99,8 @@ a {
   padding-left: 30px;
   color: #fff;
   z-index: 100;
-  font-size: 22px;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 
 /* HERO  */
@@ -864,6 +865,9 @@ a {
   .popular-foods__filters {
     justify-content: flex-start;
   }
+  .header__logo h4 {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -893,6 +897,9 @@ a {
   }
   .popular-foods__filters {
     justify-content: flex-start;
+  }
+  .header__logo h4 {
+    font-size: 18px;
   }
 }
 
@@ -929,6 +936,9 @@ a {
   }
   .popular-foods__filters {
     justify-content: flex-start;
+  }
+  .header__logo h4 {
+    font-size: 18px;
   }
 }
 /* END: about us media queries */
