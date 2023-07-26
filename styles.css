@@ -548,7 +548,7 @@ a {
   font-family: var(--plus-jakarta-sans);
 }
 
-.trending-sushi
+.trending-sushi,
 .trending-drinks {
   width: 100%;
   min-height: 640px;
@@ -885,6 +885,9 @@ a {
   .footer ul {
     gap: 14px;
   }
+  .trending-drinks {
+    flex-direction: column-reverse;
+}
 }
 
 @media screen and (max-width: 550px) {
@@ -915,6 +918,9 @@ a {
   .footer ul {
     gap: 14px;
   }
+.trending-drinks {
+    flex-direction: column-reverse;
+}
 }
 /* END: about us media queries */
 
